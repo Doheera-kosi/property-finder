@@ -27,7 +27,8 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
-gem "webpacker"
+# https://rubygems.org/gems/webpacker
+gem 'webpacker', '~> 5.4', '>= 5.4.4'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -42,7 +43,7 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
-gem "sassc-rails"
+gem 'sass-rails', '~> 6.0'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -55,10 +56,10 @@ group :development do
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
-  gem "listen"
+  gem 'listen', '~> 3.1', '>= 3.1.5'
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  gem "spring"
-  gem "spring-watcher-listen"
+  gem 'spring', '~> 4.1', '>= 4.1.1'
+  gem 'spring-watcher-listen', '~> 2.1'
 end
 
