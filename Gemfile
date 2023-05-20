@@ -43,7 +43,7 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
-gem 'sass-rails', '~> 6.0'
+# gem 'sass-rails', '~> 6.0'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -56,10 +56,10 @@ group :development do
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
-  gem 'listen', '~> 3.1', '>= 3.1.5'
+  # gem 'listen', '~> 3.1', '>= 3.1.5'
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  gem 'spring', '~> 4.1', '>= 4.1.1'
-  gem 'spring-watcher-listen', '~> 2.1'
+  # gem 'spring', '~> 4.1', '>= 4.1.1'
+  # gem 'spring-watcher-listen', '~> 2.1'
 end
 
