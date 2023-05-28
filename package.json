@@ -1,0 +1,8 @@
+{
+  "name": "property-finder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Doheera-kosi/property-finder.git",
+  "author": "Doheera-kosi <kupourevans99@gmail.com>",
+  "license": "MIT"
+}
