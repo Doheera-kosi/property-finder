@@ -6,9 +6,11 @@
   "author": "Doheera-kosi <kupourevans99@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "webpack": "^5.84.1"
+    "@rails/webpacker": "5.4.4",
+    "webpack": "4.46.0"
   },
   "devDependencies": {
-    "webpack-cli": "^5.1.1"
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "webpack-cli": "3.3.12"
   }
 }
